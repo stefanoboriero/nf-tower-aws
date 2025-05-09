@@ -67,7 +67,7 @@ Resources:
                 Sid: AWSCloudLaunch
                 Action:
                   - ec2:RunInstances
-                  - ec2:DescribeInstance
+                  - ec2:DescribeInstances
                   - ec2:CreateTags
                   - ec2:DeleteTags
                   - ec2:TerminateInstance
